@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+body {
+  padding-top: 0px;
+  margin-top: 0;
+  color: #A5644E;
+  /* color: #4E3B30; */
+  background-color: #FBEEC9;
+}
+
+header {
+  position: sticky;
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #FBEEC9;
+  margin-top: 0;
+  padding: 5px 0 5px;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  list-style-type: none;
+  padding: 0 1em;
+  margin: 0;
+}
+
+header ul li a {
+  color: #A5644E;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36pt;
+}
+
+h2 {
+  text-decoration: underline;
+  font-weight: 1200;
+}
+
+.wrapper {
+  padding-top: 60px;
+}
+
+div.profile_flex {
+  display: flex;
+}
+
+div.skill table {
+  text-align: center;
+}
+
+div.skill th,
+div.skill td {
+  border: solid 1px;
+  width: 100px;
+}
+
+.hamburger {
+  height: 0;
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+/* sp */
+@media (max-width: 767px) {
+  header ul {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    transition: .3s;
+  }
+  header ul li {
+    height: 40px;
+  }
+  .hamburger {
+    height: 50px;
+  }
+  div.profile_flex,
+  div.flex {
+    display: block;
+  }
+  .portfolio figure img{
+    width: 80%;
+  }
+}
+
