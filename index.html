@@ -19,6 +19,7 @@
         <li><a href="#skill_qualification">スキル・資格</a></li>
         <li><a href="#portfolio_01">成果物１</a></li>
         <li><a href="#portfolio_02">成果物２</a></li>
+        <li><a href="#portfolio_03">成果物３</a></li>
       </ul>
     </nav>
   </header>
@@ -228,6 +229,38 @@
       </ul>
     </ul>
   </div>
+
+  <div class="portfolio wrapper" id="portfolio_03">
+    <h2>成果物３</h2>
+    <ul>
+      <li>概要</li>
+        <ul>
+          <li>中学校での使用を想定した「連絡帳管理システム」</li>
+          <li>日揮パラレルテクノロジーズ株式会社様の採用インターンシップ課題。</li>
+          <li>作成期間は2025年10月6日～31日、のべ95時間。（マニュアル・プレゼン資料作成も含む）</li>
+          <li>主に php で開発。</li>
+        </ul>
+      <li>基本機能</li>
+        <ul>
+          <li>生徒は自身の連絡帳の記載・修正・提出・閲覧が出来る
+            <figure><img src="image/生徒用_連絡帳記入.png" alt="生徒用_連絡帳記入" width="300"></figure>
+          </li>
+          <li>担任は担当生徒の連絡帳を閲覧・既読処理が出来る</li>
+            <figure><img src="image/担任用_担任確認ページ.png" alt="担任用_担任確認ページ" width="300"></figure>
+        </ul>
+      <li>工夫した点</li>
+        <ul>
+            <li>リスト表示も可能とした
+              <figure><img src="image/生徒用_一ヶ月のリスト表示.png" alt="生徒用_一ヶ月のリスト表示" width="500"></figure>
+            </li>
+            <li>生徒自身が主観で体調・メンタルを数値評価し、そのグラフを表示できる
+              <figure><img src="image/担任用_体調・メンタルのグラフ.png" alt="担任用_体調・メンタルのグラフ" width="500"></figure>
+            </li>
+            <li>SQL文はクラス定義内に閉じ込め、外部からはゲッター・セッターでアクセス</li>
+        </ul>
+      </ul>
+  </div>
+
   <script src="hamburger.js"></script>
 </body>
 </html>
